@@ -1,0 +1,373 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+  <link href='http://fonts.googleapis.com/css?family=Asap' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+  <script type="text/javascript" src="js/jquery-1.6.js" ></script>
+  <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript" src="js/content_switch.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+  <script type="text/javascript" src="js/superfish.js"></script>
+  <script type="text/javascript" src="js/forms.js"></script>
+  <script type="text/javascript" src="js/bgStretch.js"></script>
+  <script type="text/javascript" src="js/jquery.color.js"></script>
+  <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+  <script type="text/javascript" src="js/jquery-ui.js"></script>
+  <script type="text/javascript" src="js/cScroll.js"></script>
+  <script type="text/javascript" src="js/jcarousellite.js"></script>
+  <script src="js/googleMap.js" type="text/javascript"></script>
+
+  <!--[if lt IE 9]>
+  	<script type="text/javascript" src="js/html5.js"></script>
+    <link rel="stylesheet" href="css/ie.css" type="text/css" media="all">
+  <![endif]-->
+	<!--[if lt IE 8]>
+		<div style=' clear: both; text-align:center; position: relative;'>
+			<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a>
+		</div>
+	<![endif]-->
+</head>
+
+<body>
+<div class="page_spinner"><div></div></div>
+<div id="bgStretch">
+	<img src="images/bg1.jpg" alt="">
+	<div class="spinner"></div>
+</div>
+<div class="over">
+		<div class="main">
+			<!--header -->
+			<header>
+				<h1><a href="#close" id="logo">Hotel MIAC</a></h1>
+				<nav class="menu">
+					<ul id="menu">
+						<li><a href="#!/page_About">Sobre Nosotros</a></li>
+
+						<li class="with_ul"><a href="habitaciones.html">Habitaciones</a>
+							<ul class="submenu_1">
+								<li><span></span><a href="habitaciones.html#!/page_RegistrarHabitacion">Registrar</a></li>
+								<li><span></span><a href="habitaciones.html#!/page_ModificarHabitacion">Modificar</a></li>
+								<li><span></span><a href="habitaciones.html#!/page_ConsultarHabitacion">Consultar</a></li>
+								<li><span></span><a href="habitaciones.html#!/page_EliminarHabitacion">Eliminar</a></li>
+							</ul>
+						</li>
+							<li><a href="cliente.html">Cliente</a>
+							<ul class="submenu_1">
+								<li><span></span><a href="cliente.html#!/page_RegistrarClientes">Registrar</a></li>
+								<li><span></span><a href="cliente.html#!/page_ModificarClientes">Modificar</a></li>
+								<li><span></span><a href="cliente.html#!/page_ConsultarClientes">Consultar</a></li>
+								<li><span></span><a href="cliente.html#!/page_EliminarClientes">Eliminar</a></li>
+							</ul>
+						</li>
+						<li><a href="empleado.html">Empleados</a>
+							<ul class="submenu_1">
+								<li><span></span><a href="empleado.html#!/page_RegistrarEmpleado">Registrar</a></li>
+								<li><span></span><a href="empleado.html#!/page_ModificarEmpleado">Modificar</a></li>
+								<li><span></span><a href="empleado.html#!/page_ConsultarEmpleado">Consultar</a></li>
+								<li><span></span><a href="empleado.html#!/page_EliminarEmpleado">Eliminar</a></li>
+							</ul>
+						</li>
+						
+						<li><a href="#!/">Equipo</a>
+							<ul class="submenu_1">
+								<li><span></span><a href="alquiler.html#!/page_RegistrarAlquiler">Registrar</a></li>
+								<li><span></span><a href="#!/">Modificar</a></li>
+								<li><span></span><a href="#!/">Consultar</a></li>
+								<li><span></span><a href="#!/">Eliminar</a></li>
+							</ul>
+
+						</li>
+						<li><a href="#!/">Alquiler</a>
+							<ul class="submenu_1">
+								<li><span></span><a href="#!/">Registrar</a></li>
+								<li><span></span><a href="#!/">Modificar</a></li>
+								<li><span></span><a href="#!/">Consultar</a></li>
+								<li><span></span><a href="#!/">Eliminar</a></li>
+							</ul>
+
+						</li>
+						<li><a href="#!/">Mobiliario</a>
+							<ul class="submenu_1">
+								<li><span></span><a href="#!/">Registrar</a></li>
+								<li><span></span><a href="#!/">Modificar</a></li>
+								<li><span></span><a href="#!/">Consultar</a></li>
+								<li><span></span><a href="#!/">Eliminar</a></li>
+							</ul>
+
+						</li>
+						<li><a href="#!/page_Contacts">Contacto</a></li>
+					</ul>
+				</nav>
+			</header>
+			<!--header end-->
+			<!--content -->
+			<article id="content"><div class="ic"></div>
+				<ul>
+					<li id="page_About">
+						<div class="pad">
+							<a href="#close" class="close"><span></span></a>
+							<div class="wrapper">
+								<div class="col1">
+									<h2>Bienvenido!</h2>
+									<div class="wrapper">
+										<figure class="left marg_right1"><img src="images/page1_img1.jpg" alt=""></figure>
+										<p class="pad_bot1">Hotel MIAC<br/><a href="http://blog.templatemonster.com/free-website-templates/" target="_blank" class="link1">Confort y Armonia</a> <br/>El Hotel ocupa un antiguo palacete del siglo XIX – Casa Daurella® - ampliado y rehabilitado con el máximo rigor arquitectónico para crear un hotel moderno, funcional en el que coexisten el arte y la singularidad del pasado con el confort más actual. <br/>El Hotel es una referencia gastronómica de prestigio de la mano de Martín Berasategui quien asesora y supervisa toda la Restauración del Hotel.</p>
+										<p>En el <a href="http://blog.templatemonster.com/2012/02/20/free-full-javascript-template-interior-design-website/" target="_blank" class="link1">Hotel MIAC</a> contamos con nuevas, modernas y lujosas habitaciones equipadas con todas las comodidades que necesita para hacer de su estadia mas placentera.</p>
+									</div>
+									<ul id="icons">
+										<li class="first">Follow us:</li>
+										<li><a href="#"><img src="images/icon1.png" alt=""><img src="images/icon1_active.gif" alt="" class="img_act"></a></li>
+										<li><a href="#"><img src="images/icon2.png" alt=""><img src="images/icon2_active.gif" alt="" class="img_act"></a></li>
+										<li><a href="#"><img src="images/icon3.png" alt=""><img src="images/icon3_active.gif" alt="" class="img_act"></a></li>
+									</ul>
+								</div>
+								<div class="col1 pad_left1">
+									<h2>¿Qué ofrecemos?</h2>
+									<div class="relative">
+										<div class="scroll">
+											<p class="pad_bot1">El hotel dispone de 30 habitaciones especialmente diseñadas para ofrecer el máximo bienestar, modernos salones para reuniones y eventos, piscina exterior, solárium y una espectacular terraza con las mejores visitas sobre Barcelona.<br/>
+</p>
+											<ul class="list1 pad_bot1">
+												<li><a href="#">La azotea alberga la espectacular Terraza Alaire sobre Paseo de Gracia.</a></li>
+												<li><a href="#">Cócteles y gastronomía con buena música de fondo, mucha animación y un ambiente muy chic.</a></li>
+												<li><a href="#">La Terraza Al aire es un punto de referencia ineludible en la ciudad y el enclave ideal para cualquier celebración especial al aire libre.</a></li>
+												<li><a href="#">Otros servicios: WIFI gratuito, mini-gym, sauna, businesscorner y amplia gama de salones para reuniones y eventos de todo tipo.</a></li>
+												<li><a href="#"></a></li>
+											</ul>
+											Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li id="page_Services">
+						<div class="pad">
+							<a href="#close" class="close"><span></span></a>
+							<div class="wrapper">
+								<h2>Nuestras Habitaciones</h2>
+								<p class="pad_bot1"><strong></strong> <br>
+								Una estancia perfecta para usted y su familia. Cuenta con 30 nuevas,modernas y lujosas habitaciones equipadas con todas las comodidades que necesita. <br>
+								<div class="col1">
+									<div class="wrapper">
+										<figure class="left marg_right1"><img src="images/page2_img1.png" alt=""></figure>
+
+										<div class="col2">
+											<p class="pad_bot1"><strong>Habitaciones dobles</strong> <br>
+													Amplia y comoda habitacion acondicionada con dos Camas Matrimoniales Full Size, contamos con una area de trabajo escritorio y mesa de servicio <br>
+													<a href="" class="link1"></a></p>
+										</div>
+									</div>
+									<div class="wrapper">
+										<figure class="left marg_right1"><img src="images/page2_img1.png" alt=""></figure>
+										<div class="col2">
+											<strong>Habitaciones Deluxe King</strong> <br>
+													Amplia y comoda habitacion acondicionada con una Cama Queen Size, contamos con una area de trabajo escritorio y mesa de servicio<br>
+													<a href="" class="link1"></a>
+										</div>
+									</div>
+								</div>
+								<div class="col1 pad_left1">
+									<div class="wrapper">
+										<figure class="left marg_right1"><img src="images/laptop.png" alt=""></figure>
+										<div class="col2">
+											<p class="pad_bot1"><strong>Caja fuerte Laptop Size</strong> <br>
+													Seguridad: Podras Guardar una Laptop en la Caja Fuerte.<br>
+													<a href="" class="link1"></a></p>
+										</div>
+									</div>
+									<div class="wrapper">
+										<figure class="left marg_right1"><img src="images/wifi.png" alt=""></figure>
+										<div class="col2">
+											<strong>Wifi</strong> <br>
+													Disfruta de Wifi Alto Rendimiento en Nuestras Habitaciones y Areas Comunes<br>
+													<a href="" class="link1"></a>
+										</div>
+									</div>
+									<div class="wrapper">
+										<figure class="left marg_right1"><img src="images/mueble-de-bano.png" alt=""></figure>
+										<div class="col2">
+											<strong>Moderno Baño, ducha tipo spa</strong> <br>
+													Relajese con los detalles y lujo de Nuestro Baño <br>
+													<a href="" class="link1"></a>
+										</div>
+									</div>
+										<div class="wrapper">
+										<figure class="left marg_right1"><img src="images/controlar.png" alt=""></figure>
+										<div class="col2">
+											<strong>Televisor de 32''</strong> <br>
+													Modernos Pantalla Plana <br>
+													<a href="" class="link1"></a>
+										</div>
+									</div>
+										<div class="wrapper">
+										<figure class="left marg_right1"><img src="images/refrigerador.png" alt=""></figure>
+										<div class="col2">
+											<strong>Otras comodidades</strong> <br>
+													Sientase como en su casa: prepare Cafe y guarde alimentos<br>
+													<a href="" class="link1"></a>
+										</div>
+									</div>						
+								</div>
+							</div>
+						</div>
+					</li>
+					<li id="page_Catalogue">
+						<div class="pad">
+							<a href="#close" class="close"><span></span></a>
+								<div class="col1">
+									<div class="gallery_big_img">
+										<img src="images/big_img1.jpg" alt="" class="img1" id="active">
+										<img src="images/big_img2.jpg" alt="" class="img2">
+										<img src="images/big_img3.jpg" alt="" class="img3">
+										<img src="images/big_img4.jpg" alt="" class="img4">
+										<img src="images/big_img5.jpg" alt="" class="img5">
+									</div>
+								</div>
+								<div class="col1 pad_left1">
+									<h2>Projects Gallery</h2>
+									<div id="caption">
+										<ul>
+											<li class="img1">
+												<p class="pad_bot1"><strong>Project Name 1</strong><br>
+														Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum tet clita kasd gubergren, no sea takimata.</p>
+												<p>Danctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit tempor invidunt ut labore.</p>
+											</li>
+											<li class="img2">
+												<p class="pad_bot1"><strong>Project Name 2</strong><br>
+														Sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum tet clita kasd gubergren, no sea takimata.</p>
+												<p>Est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit tempor invidunt ut labore.</p>
+											</li>
+											<li class="img3">
+												<p class="pad_bot1"><strong>Project Name 3</strong><br>
+														Elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum tet clita kasd gubergren, no sea takimata.</p>
+												<p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit tempor invidunt ut labore.</p>
+											</li>
+											<li class="img4">
+												<p class="pad_bot1"><strong>Project Name 4</strong><br>
+														Sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum tet clita kasd gubergren, no sea takimata.</p>
+												<p>Ipsum dolor sit amet. Lorem ipsum dolor sit tempor invidunt ut labore.</p>
+											</li>
+											<li class="img5">
+												<p class="pad_bot1"><strong>Project Name 5</strong><br>
+														Diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum tet clita kasd gubergren, no sea takimata.</p>
+												<p>Dolor sit amet. Lorem ipsum dolor sit tempor invidunt ut labore.</p>
+											</li>
+										</ul>
+									</div>
+									<div class="relative">
+										<div id="gallery1">
+											<ul>
+												<li><a href="#img1"><img src="images/gallery_thumb1.jpg" alt=""></a></li>
+												<li><a href="#img2"><img src="images/gallery_thumb2.jpg" alt=""></a></li>
+												<li><a href="#img3"><img src="images/gallery_thumb3.jpg" alt=""></a></li>
+												<li><a href="#img4"><img src="images/gallery_thumb4.jpg" alt=""></a></li>
+												<li><a href="#img5"><img src="images/gallery_thumb5.jpg" alt=""></a></li>
+											</ul>
+										</div>
+										<a href="#" class="prev"><span></span></a>
+										<a href="#" class="next"><span></span></a>
+									</div>
+								</div>
+						</div>
+					</li>
+					<li id="page_Contacts">
+						<div class="pad">
+							<a href="#close" class="close"><span></span></a>
+							<div class="wrapper">
+								<div class="col1">
+									<h2>Contacto</h2>
+									<form action="#" id="ContactForm">
+										<div class="success"> Contact form submitted!<br>
+										<strong>We will be in touch soon.</strong> </div>
+										<fieldset>
+											<div class="wrapper">
+												<span class="col1">Name:</span>
+												<label class="name">
+													<span class="bg"><input type="text" class="input"></span>
+													<span class="error">*This is not a valid name.</span> <span class="empty">*This field is required.</span>
+												</label>
+											</div>
+											<div class="wrapper">
+												<span class="col1">Email:</span>
+												<label class="email">
+													<span class="bg"><input type="text" class="input"></span>
+													<span class="error">*This is not a valid email address.</span> <span class="empty">*This field is required.</span>
+												</label>
+											</div>
+											<div class="wrapper">
+												<span class="col1">Phone:</span>
+												<label class="phone">
+													<span class="bg"><input type="text" class="input"></span>
+													<span class="error">*This is not a valid phone number.</span> <span class="empty">*This field is required.</span>
+												</label>
+											</div>
+											<div class="wrapper">
+												<span class="col1">Message:</span>
+												<label class="message">
+													<span class="bg"><textarea rows="1" cols="1"></textarea></span>
+													<span class="error">*The message is too short.</span> <span class="empty">*This field is required.</span>
+												</label>
+											</div>
+											<div class="btns"><a href="#" class="link1" data-type="submit">Send</a><a href="#" class="link1" data-type="reset">Clear</a></div>
+										</fieldset>
+									</form>
+								</div>
+								<div class="col1 pad_left1">
+									<h2>Contact Us</h2>
+									<figure class="google_map"></figure>
+									Demolink.org 8901 Marmora Road, Glasgow, D04 89GR.<br>
+											<span class="col2">Telephone:</span>  +1 959 552 5963;<br>
+											<span class="col2">E-mail:</span>       <a href="mailto:" class="link1">mail@demolink.org</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li id="page_More">
+						<div class="pad">
+							<a href="#close" class="close"><span></span></a>
+							<div class="wrapper">
+								<h2>Lorem ipsum dolor</h2>
+								<p class="pad_bot1"><strong>Nam liber placerat facer possim assum</strong> <br>
+													Dobis eleifend option congue nihil imperdiet dominguod mazim placerat facer possim assum lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+								<p class="pad_bot1"><strong>Aliquam erat nostrud exerci tation</strong> <br>
+													Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+								<p class="pad_bot1"><strong>Lorem ipsum dolor sit amet</strong> <br>
+													Sadipscing elit sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum stet clita kasd gubergren, no sea takimata.</p>
+								<p class="pad_bot1"><strong>At vero eos et accusam et justo </strong> <br>
+													Lorem ipsum dolor sit amet, consetetur sadipsc- ing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum stet clita kasd.</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</article>
+			<!--content end-->
+		</div>
+	<div class="bg1">
+			<div class="main">
+			<!--footer -->
+			<footer><a rel="nofollow" href="/" target="_blank"></a><a href="" target="_blank"></a>.
+				<!-- {%FOOTER_LINK} -->
+				<nav id="bg_pagination">
+					<ul>
+						<li><span></span><a href="images/bg1.jpg">1</a></li>
+						<li><span></span><a href="images/bg2.jpg">2</a></li>
+						<li><span></span><a href="images/bg3.jpg">3</a></li>
+					</ul>
+				</nav>
+			</footer>
+			<!--footer end-->
+			</div>
+		</div>
+</div>
+<script>
+$(window).load(function() {
+	$('.page_spinner').fadeOut();
+	$('body').css({overflow:'visible'})
+})
+</script>
+</body>
+</html>
